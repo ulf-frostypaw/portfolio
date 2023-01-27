@@ -1,0 +1,14 @@
+{
+    "index": {
+      "title": "Inicio",
+      "type":"page"
+    },
+    "posts":{
+      "title":"Proyectos",
+      "type":"page"
+    },
+    "contact":{
+      "title":"Contacto",
+      "type":"page"
+    }
+}
