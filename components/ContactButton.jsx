@@ -1,7 +1,7 @@
 // import Image from 'next/image'
 import { FaFacebookF, FaTwitch, FaTwitter, FaStackOverflow, FaTelegram, FaYoutube } from 'react-icons/fa';
 import { SiWattpad, SiFuraffinity } from "react-icons/si";
-import { GiLovefHowl } from "react-icons/gi";
+import { GiLoveHowl } from "react-icons/gi";
 
 export default function ContactButton({name = [], link =[], classes=[]}){
     function Icon(){
@@ -31,7 +31,7 @@ export default function ContactButton({name = [], link =[], classes=[]}){
                 return <SiFuraffinity />
                 break;
             case 'murrtube':
-                return <GiLovefHowl />
+                return <GiLoveHowl />
                 break;
             default:
                 return 'ERROR_ICON';
