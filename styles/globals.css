@@ -110,21 +110,52 @@ a {
   display: block;
   text-align: center;
   border-radius: 10px !important;
-  border: 1px solid red;
-  color: red;
   transition: 0.5s;
+  border: 1px solid #fff;
+  margin: 5px 5px 0 0;
 }
-
-.facebook{}
-.youtube{}
-.telegram{}
-.furaffinity{}
-.murrtube{}
-
-.button:hover{
-  background: #36566F;
+.button-text{
+  margin-left: 7px;
 }
-
+.button-container{
+  display: flex;
+  margin: auto;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+.facebook:hover{
+  color: #1877F2 !important;
+  border: 1px solid #1877F2 !important;
+}
+.youtube:hover{
+  color: #FF0000 !important;
+  border: 1px solid #FF0000 !important;
+}
+.telegram:hover{
+  color: #26A5E4 !important;
+  border: 1px solid #26A5E4 !important;
+}
+.furaffinity:hover{
+  color: #36566F !important;
+  border: 1px solid #36566F !important;
+}
+.stackoverflow:hover{
+  color: #F58025 !important;
+  border: 1px solid #F58025 !important;
+}
+.twitter:hover{
+  color: #1DA1F2 !important;
+  border: 1px solid #1DA1F2 !important;
+}
+.twitch:hover{
+  color: #9146FF;
+  border: 1px solid #9146FF;
+}
+.wattpad:hover{
+  color: #FF500A;
+  border: 1px solid #FF500A;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
